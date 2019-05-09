@@ -39,9 +39,9 @@ window.onload = () => {
     const navigate = (route) => {
         showPage(route.name);
         window.history.pushState(
-        route.name, 
-          route.path,
-          window.location.origin + route.path
+            {}, 
+            route.path,
+            window.location.origin + route.path
         );
     }
 
