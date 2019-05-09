@@ -102,7 +102,7 @@ module.exports = {
             chunkFilename: '[id].css'
         }),
         new HtmlWebpackPlugin({
-            title: 'Test 2',
+            title: 'Static website',
             template: './src/index.handlebars',
             minify: !isDevelopment && {
                 html5: true,
